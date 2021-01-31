@@ -4,4 +4,6 @@ Installing required packages to prepare the R working environment is always pain
 This package would be useful for me (and other bioinformaticians / computational biologists) whenever I start working on a new cluster or I reinstall my operating system.
 
 ## How to install
+```
 devtools::install_github("alorchhota/rpkg")
+```
