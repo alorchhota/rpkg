@@ -4,18 +4,18 @@ Installing required packages to prepare the R working environment is always pain
 This package would be useful for me (and other bioinformaticians / computational biologists) whenever I start working on a new cluster or I reinstall the operating system.
 
 ## How to install
-Install the default packages:
+Install default packages:
 ```
 if (!requireNamespace("devtools", quietly = TRUE))
     install.packages("devtools")
 devtools::install_github("alorchhota/rpkg")
 ```
 
-Install additional packages
+Install additional packages:
 ```
-cran.pkg = c("shiny", "plotly")
-bioconductor.pkg = c("Rbowtie2")
-github.pkg = c("princyparsana/netsimulatR")
+cran.pkg = c("shiny")
+bioconductor.pkg = c("scater", "scran")
+github.pkg = c("alorchhota/spice")
 rpkg::install.rpkg(cran.pkg, bioconductor.pkg, github.pkg)
 ```
 
@@ -61,8 +61,6 @@ rpkg::install.rpkg(cran.pkg, bioconductor.pkg, github.pkg)
   1. [KEGGgraph](https://bioconductor.org/packages/release/bioc/html/KEGGgraph.html)
   1. [limma](https://bioconductor.org/packages/release/bioc/html/limma.html)
   1. [minet](https://bioconductor.org/packages/release/bioc/html/minet.html)
-  1. [scater](https://bioconductor.org/packages/release/bioc/html/scater.html)
-  1. [scran](https://bioconductor.org/packages/release/bioc/html/scran.html)
   1. [SharedObject](https://bioconductor.org/packages/release/bioc/html/SharedObject.html)
   1. [STRINGdb](https://bioconductor.org/packages/release/bioc/html/STRINGdb.html)
   1. [sva](https://bioconductor.org/packages/release/bioc/html/sva.html)
