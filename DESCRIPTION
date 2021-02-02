@@ -24,7 +24,8 @@ Imports: parallel, foreach, doParallel, flock,
          ggplot2, cowplot, corrplot, RColorBrewer, gridExtra,
          MatrixEQTL, 
          GENIE3, minet, WGCNA, corpcor, glasso, ppcor, infotheo,
-         ioutil, miscutil, genomicsutil, mappabilityutil
+         ioutil, miscutil, genomicsutil, mappabilityutil,
+         blogdown
 LinkingTo: Rcpp
 RdMacros: Rdpack
 Remotes: github::alorchhota/autil/ioutil,
