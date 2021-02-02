@@ -22,6 +22,7 @@ rpkg::install.rpkg(cran.pkg, bioconductor.pkg, github.pkg)
 ## Default packages
 **CRAN packages**
   1. [argparser](https://cran.r-project.org/web/packages/argparser/index.html)
+  1. [blogdown](https://cran.r-project.org/web/packages/blogdown/index.html)
   1. [corpcor](https://cran.r-project.org/web/packages/corpcor/index.html)
   1. [corrplot](https://cran.r-project.org/web/packages/corrplot/index.html)
   1. [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html)
